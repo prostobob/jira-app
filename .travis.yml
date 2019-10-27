@@ -10,6 +10,10 @@ branches:
   only:
   - master
 
+script:
+  - npm run all_tests
+  - npm runs build --aot --prod
+
 deploy:
   provider: heroku
   api_key:
