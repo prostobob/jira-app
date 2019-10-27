@@ -12,7 +12,7 @@ branches:
 
 script:
   - npm run all_tests
-  - npm runs build --aot --prod
+  - npm run build --aot --prod
 
 deploy:
   provider: heroku
